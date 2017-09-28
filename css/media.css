@@ -1,0 +1,75 @@
+@media only screen and (max-width : 4098px) {.section ul{max-width: 30%;}}
+/* Header */
+@media only screen and (max-width : 370px) {header h1 {font-size: 35px;}}
+@media only screen and (max-width : 770px) {#navigation img {display: none;}
+    #navigation ol {right: 0; max-width: 560px;width: 100%;margin: 0 auto;float: none;}
+}
+@media only screen and (max-width : 600px) { #navigation ol {max-width: 350px;}}
+/*   Изображение   */
+@media only screen and (max-width : 1000px) {.latest_content_img img { width: 46%;}}
+@media only screen and (max-width : 850px) {.latest_content_img img { width: 45%;}}
+@media only screen and (max-width : 660px) {.latest_content_img img { width: 44%;}}
+@media only screen and (max-width : 550px) {.latest_content_img img { width: 43%;}}
+@media only screen and (max-width : 480px) {.latest_content_img img { width: 42%;}}
+@media only screen and (max-width : 420px) {.latest_content_img img { width: 88%;}}
+/* Блог */
+@media only screen and (max-width : 420px) {.blog_information h2{font-size: 13px}
+.blog_information p{font-size: 10px;}}
+/* Форма */
+@media only screen and (max-width : 990px) {#form p {display: none;}}
+@media only screen and (max-width : 960px) {
+    #form{width: 62%;}
+    .text_inp{width: 93%;}
+}
+@media only screen and (max-width : 780px) {
+    #form p{font-size: 11px;}
+    .text_inp{width: 80%;}
+    #komment_inp{width: 80%;}
+}
+@media only screen and (max-width : 480px) {
+    #form{ width: 100%;}
+    #facts{ width: 100%; float: none; margin: 0 auto;}}
+/* Сервис */
+@media only screen and (max-width : 350px) {
+.servieces_block img{max-width: 70px; margin-top: 10px;}
+.servieces_block h2{font-size: 12px;}
+    .servieces_block p{font-size: 10px;}
+}
+/* Клиенты */
+@media only screen and (max-width : 885px) {
+    #clients img{width: 25%;}
+}
+
+@media only screen and (max-width : 620px) {
+    #clients img{width: 40%;}
+}
+
+@media only screen and (max-width : 520px) {
+    #clients img{width: 90%;}
+}
+/* о компании */ 
+@media only screen and (max-width : 1210px) {.user_avatar { width: 40%;}}
+@media only screen and (max-width : 860px) {
+    .user_avatar { width: 35%; }
+    .user_avatar h4{font-size: 12px;}
+    .user_avatar p {font-size: 10px;}
+}
+
+@media only screen and (max-width : 680px) {
+    .user_avatar h4{display: none;}
+    .user_avatar p {display: none;}
+}
+
+@media only screen and (max-width : 580px) {
+    .user_avatar { width: 30%;} 
+    .about_romb p{font-size: 10px;}
+}
+
+
+@media only screen and (max-width : 440px) {
+    .user_avatar { width: 25%;} 
+}
+
+@media only screen and (max-width : 400px) {
+    .user_avatar { display: none;} 
+}

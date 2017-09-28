@@ -1,0 +1,561 @@
+@import url(reset.css);
+body {
+    background: #000000;
+} 
+
+p,a,h1,h2,h3,h4,h5,h6{
+    color: #fff;
+}
+
+p {
+    font: 14px "Myriad Pro","Times New Roman", Arial;
+}
+
+a{
+    text-decoration: none;
+}
+
+#center{
+    max-width: 1600px;
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+}
+/* SECTION */
+.section{
+    width: 100%;
+    max-width: 1600px;
+    height: 123px;
+}
+
+.section h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font: 24px "Myriad Pro","Times New Roman", Arial;
+}
+
+.section img{
+    display: block;
+    width: 100px;
+    height: auto;
+    margin: 23px auto 25px auto;
+}
+
+.section p{
+    text-align: center;
+    font-size: 22px ;
+}
+
+/*** HEADER ***/
+
+header{
+    padding-top: 40px;
+    float: left;
+    width: 100%;
+    height: auto;
+    background: url(../images/header_background1.gif) no-repeat center;
+    background-size: cover;
+}
+
+header h1{
+    font: 53px "Myriad Pro","Times New Roman", Arial;
+    text-align: center;
+    margin-top: 260px;
+}
+
+header span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+header span:hover{
+    color: #0ab1e3;
+}
+
+
+header h5{
+    font: 24px "Myriad Pro","Times New Roman", Arial;
+    text-align: center;
+}
+
+header img{ /*logo*/
+    position: relative;
+    left: 5%;
+}
+
+header input{
+    outline: 0!important;
+    display: block;
+    width: 180px;
+    margin: 50px auto 260px auto;
+}
+
+ol{
+    display: block;
+    float: right;
+    position: relative;
+    right: 2%;
+}
+
+ol li{
+    float: left;
+    margin-right: 25px;
+}
+
+ol a{
+    font: 16px "Myriad Pro","Times New Roman", Arial;
+}
+
+.svet_menu{
+    color: #0ab1e3;
+}
+
+/***_services_***/
+#services{
+    padding: 45px 0 90px 0;
+    float: left;
+    width: 100%;
+    height: auto;
+    background: #070707;
+}
+
+#services_content{
+    width: 85%;
+    display:table;
+    height: auto;
+    margin: 30px auto 0 auto;
+}
+
+.servieces_block{
+    display:table-cell;
+    height: 134px;
+}
+
+.servieces_block img{
+    max-width: 90px;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0px auto 25px auto;
+}
+
+.servieces_block h2{
+    font: 16px "Myriad Pro","Times New Roman", Arial;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.servieces_block p{
+    text-align: center;
+    margin: 0 10px 0 10px;
+}
+
+/* about_us */
+#about_us{
+    padding: 45px 0 40px 0;
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+#about_content{
+    height: auto;
+    max-width: 1280px;
+    width: 100%;
+    display: table;
+    margin: 60px auto 0 auto;
+}
+
+.about_romb{
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+.user_avatar {
+    height: auto;
+    width: 43%;
+    display: inline-block;
+    margin: 0 20px 0 20px;
+}
+
+.user_avatar img{
+    height: auto;
+    width: 100%;
+}
+
+.user_avatar h4{
+    font: 16px "Myriad Pro","Times New Roman", Arial;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 16px 0 13px 0;
+}
+
+.about_romb p{
+    margin: 0 15px 65px 15px;
+}
+
+.user_avatar p{
+    text-align: center;
+}
+
+/*latest*/
+
+#latest{
+    padding: 40px 0 60px 0;
+    float: left;
+    width: 100%;
+    height: auto;
+    background: #070707;
+}
+
+.section_latest{
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.section_latest h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font: 24px "Myriad Pro","Times New Roman", Arial;
+}
+
+.section_latest img{
+    display: block;
+    width: 100px;
+    height: auto;
+    margin: 23px auto 25px auto;
+}
+
+.navi {text-align:center;}
+
+.navi li{
+    display:inline-block;
+    margin: 0 10px 50px 10px;
+}
+
+.navi a{
+    font: 16px "Myriad Pro","Times New Roman", Arial; 
+}
+
+.navi a:hover{
+    color: #c0301c;
+}
+
+.active{
+    color: #c0301c;
+}
+
+.latest_content_img{
+    display: block;
+    padding-right: -15px;
+    padding-left: -15px;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.latest_content_img img  {
+    height: auto;
+    width: 30%;
+    display: inline-block;
+    margin: 0 15px 30px 15px;
+    background: green;
+}
+
+/* baner*/
+#baner{
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 90px 0 85px 0;
+    background: url(../images/baner_background.jpg);
+    background-size: cover;
+}
+
+#baner h5{
+    font: 30px "Myriad Pro","Times New Roman", Arial;
+    text-align: center;
+}
+
+#baner input{
+    outline: 0!important;   
+    display: block;
+    width: 180px;
+    margin: 50px auto 0 auto;
+}
+
+/*blog */
+#blog{
+    padding: 45px 0 90px 0;
+    float: left;
+    width: 100%;
+    height: auto;
+    background: #070707;
+}
+
+#midle_block{
+    max-width: 1145px;
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+}
+
+.blog_block{
+    display: table;
+    border-bottom: 1px solid #ddd;
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 40px 0 40px 0;
+}
+
+.blog_img{
+    float: left;
+    width:  40%;
+    margin-right: 40px;
+}
+
+.blog_information{
+    display: table-cell;
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+.blog_information h2{
+    margin-top: 15px;
+    font: 20px "Myriad Pro","Times New Roman", Arial;
+    color: #ed2e14;
+    text-transform: uppercase;
+}
+
+.blog_information p{
+    font-size: 16px;
+    margin-bottom: 55px;
+}
+
+.blog_information h6{
+    margin-top: 8px;
+    font: 16px "Myriad Pro","Times New Roman", Arial;
+    margin-bottom: 30px;
+}
+.blog_information span{color: #eb2f15;}
+
+.blog_information a{
+    color: #e33118;    
+    font: 16px "Myriad Pro","Times New Roman", Arial;
+    font-weight: bold;
+}
+
+.blog_information img{
+    width: 100%;
+    max-width: 76px;
+    height: auto;
+    float: left;
+    margin-right: 25px;
+}
+
+/* clients */
+#clients{
+    padding: 45px 0 90px 0;
+    width: 100%;
+    height: auto;
+    float: left;
+}  
+
+#clients_midle{
+    margin: 0px auto;
+    display: block;
+    max-width: 875px;
+    width: 100%;
+    height: auto;
+}
+
+#p_block{
+    display: block;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+#clients img{
+    float: left;
+    margin: 0 25px 0 25px;
+    width: 14.2%;
+}
+
+#clients p{
+    display: block;    
+    font-size: 20px;
+    text-align: center;
+    max-width: 760px;
+    margin: 40px auto 30px auto;
+}
+
+#clients h6{
+    font: 22px "Times New Roman", Arial;
+    text-align: center;
+}
+
+/* contact */
+
+#contact{
+    padding: 90px 0 70px 0;
+    width: 100%;
+    height: auto;
+    float: left;
+    background: #070707;
+}
+
+#mid_contact{
+    max-width: 1090px;
+    height: auto;
+    margin: 60px auto 0 auto;
+    width: 100%;
+}
+
+#facts{
+    display: table;
+    width: 25%;
+    max-width: 320px;
+    height: auto;
+    float: left;
+}
+
+.fact_block{
+    display: table-cell;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.fact_block img{
+    float: left;
+    margin-right: 15px;
+}
+
+.fact_block p{
+    margin: 15px 0 0 25px;
+}
+
+.fact_block h4{
+    font: 16px "Times New Roman", Arial;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#form{
+    width: 72%;
+    height: auto;
+    float: right;
+    display: table;
+}
+
+#form p{
+    float: left;
+    margin-top: 15px;
+}
+#form span{color: #c0301c;}
+
+
+.text_inp{
+    outline: 0!important;
+    display: block;
+    margin: 0 15px 25px 15px;
+    float: left;
+    text-transform: uppercase;
+    width: 43.5%;
+    height: 40px;
+    font: 12px Arial;
+    padding-left: 10px;
+}
+
+#komment_inp{
+    outline: 0!important;
+    display: block;
+    margin: 0 15px 25px 15px;
+    float: left;
+    width: 93%;
+    height: 100px;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+#button_inp{
+    max-width: 170px;
+    width: 100%;
+    height: 45px;
+    margin: 0 35px 0 15px;
+    float: left;
+}
+
+
+
+/*footer*/
+
+footer {
+    float: left;
+    padding: 90px 0 80px 0;
+    background: #c0301c;
+    width: 100%;
+    height: auto;   
+}
+
+#footer_center{
+    max-width: 1600px;
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+}
+
+#footer_center img{
+    height: auto;
+    margin: 25px auto 0 auto;
+    display: block;
+}
+
+#footer_center p{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+/* Скролл вверх */
+.btn_up{
+    position: fixed;
+    bottom: -50px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    background: #333;
+    z-index: 100;
+    outline: 0!important;
+    transform: .4s;
+    cursor: pointer;
+}
+
+.btn_up:after{
+    cursor: pointer;
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 4px;bottom: 0;
+    left: 0; right: 0;
+    margin: auto;
+}
+
+.btn_up.active{
+    bottom: 50px;
+}
